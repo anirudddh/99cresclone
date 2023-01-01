@@ -1,0 +1,513 @@
+
+.generic__mainWrapper {
+  width: 1200px;
+  margin: auto;
+  position: relative;
+  background: none;
+
+  /* & > div {
+    position: relative;
+    margin-bottom: 80px;
+  } */
+}
+
+.generic__WebRupee {
+  font-family: WebRupee;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html > body .generic__WebRupee {
+  margin-right: 2px;
+}
+
+* {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+a,
+a:link {
+  text-decoration: none;
+}
+
+i {
+  display: inline-block;
+}
+
+.generic__textC {
+  text-align: center !important;
+}
+
+.generic__clrAftr {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.generic__vmid {
+  vertical-align: middle;
+}
+
+.generic__sBold {
+  font-weight: 600;
+}
+
+.generic__listNone {
+  list-style-type: none;
+}
+
+/* .listNone span {
+  font-size: 12px;
+  margin-right: 12px;
+} */
+.generic__zeroPadding {
+  padding: 0 !important;
+}
+
+td {
+  font-size: 11px;
+}
+
+input[type='submit'],
+input[type='button'] {
+  -webkit-appearance: none;
+}
+
+textarea {
+  resize: none;
+}
+
+.generic__slideUp {
+  height: 0;
+}
+
+.generic__slide {
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+}
+
+.generic__uiSprite {
+  background-image: url('https://static.99acres.com/universalapp/img/ui_sprite_home-v23.png');
+  background-repeat: no-repeat;
+}
+
+[data-iswebp='true'] .generic__uiSprite {
+  background-image: url('https://static.99acres.com/universalapp/img/ui_sprite_home-v23.webp');
+}
+
+.generic__srpImgIcon {
+  background-image: url('https://static.99acres.com/universalapp/img/optiSrp99-v1.png');
+  background-repeat: no-repeat;
+}
+
+[data-iswebp='true'] .generic__srpImgIcon {
+  background-image: url('https://static.99acres.com/universalapp/img/optiSrp99-v1.webp');
+}
+
+.generic__commonSp {
+  background-image: url('http://static.99acres.com/universalapp/img/optiCommon99-v1.png');
+  background-repeat: no-repeat;
+}
+
+[data-iswebp='true'] .generic__commonSp {
+  background-image: url('https://static.99acres.com/universalapp/img/optiCommon99-v1.webp');
+}
+
+.generic__iconS {
+  background-image: url('https://static.99acres.com/universalapp/img/difSpriteV17.png');
+  background-repeat: no-repeat;
+}
+
+[data-iswebp='true'] .generic__iconS {
+  background-image: url('https://static.99acres.com/universalapp/img/difSpriteV17.webp');
+}
+
+.generic__icon_chat_bot2X {
+  background: url(/universalhp/img/Chatbot_2X.png);
+}
+
+.generic__icon_chat_bot {
+  background: url(/universalhp/img/Chatbot_2X.png);
+}
+
+.generic__notifySprite {
+  background-image: url('https://static.99acres.com/universalapp/img/notifySprite.png');
+  background-repeat: no-repeat;
+  background-size: 220px 86px;
+}
+[data-iswebp='true'] .generic__notifySprite {
+  background-image: url('https://static.99acres.com/universalapp/img/notifySprite.webp');
+}
+
+.generic__verifDataUri {
+  width: 9px;
+  height: 6.5px;
+  background-size: 100% 100%;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAANCAYAAACkTj4ZAAAAvUlEQVR42mNgoAD8//+/EIi9KTGAC4iX/YeAD0CsSo4hSkB84T8quEKqIR5A/PY/JnhPrAGMQFwFxH+wGHIJiFWQFcuAAg+LIbxAvPY/drACiHmQFYsC8TWoZD/IBVBxdSRxZAByWQlMHcwQfiA+h6ZwJhAHAvFHLIa8BmJnbP7XB+J3/4kDZ4FYHl9gggx7QcCQhUDMQUzMgMLjIRYDfgFxDqnpRB6IbyEZ8hyIbchN/hJAfBmIjwGxNLH6AIFjmFT6XBL5AAAAAElFTkSuQmCC);
+}
+
+.generic__okbox {
+  color: #62a901;
+  margin: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px 0 10px 50px;
+  border: solid 1px #62a901;
+  background: #f1fed2 10px 50% url('https://static.99acres.com/images/green_tick.gif') no-repeat;
+}
+.generic__textC {
+  text-align: center;
+}
+.generic__whiteBtn {
+  background: #fff;
+  min-width: 120px;
+  color: #3496d9;
+  border: 1px solid #3496d9;
+  padding: 8px 20px;
+  font-size: 12px;
+}
+
+.generic__error {
+  color: red;
+  font-size: 11px;
+  font-weight: normal;
+}
+
+i.generic__arrow_black_down {
+  background-position: 0 -6px;
+}
+
+textarea {
+  padding: 7px 6px;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+input[type='text'] {
+  border: 1px solid #ccc;
+  padding: 7px 6px;
+  margin: 0;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  color: #555;
+  font-weight: normal;
+}
+
+[id^=cityDropDownInput]{
+  border: 0px solid #ccc !important;
+  box-shadow: none !important;
+  padding-left: 12px !important;
+}
+[id^=nameInputField]{
+  box-shadow: none !important;
+  padding: 0 !important;
+  color: rgb(51, 51, 51) !important;
+  font-weight: 600 !important;
+}
+.generic__btn {
+  text-decoration: none;
+  border-width: 0 0 2px 0;
+  border-style: solid;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  min-width: 120px;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in;
+}
+
+.generic__blueSubmit {
+  background: #3498db;
+  color: #fff;
+  border-color: #3498db;
+  border-bottom-color: #2980b9;
+}
+
+.generic__blueSubmit:active,
+.generic__btn.generic__blue:active {
+  background: #2980b9;
+  border-color: #2980b9;
+}
+
+.generic__blueSubmit:hover,
+.generic__btn.generic__blue:focus,
+.generic__btn.generic__blue:hover {
+  background: #4ba7e4;
+  border-color: #4ba7e4;
+  border-bottom-color: #2980b9;
+}
+
+.generic__starIcon {
+  background-position: -1px -1px;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.generic__fadeOut {
+  transition: opacity 0.25s ease-in-out 0.5s, height 0.35s ease-in-out;
+  opacity: 0 !important;
+  height: 0px !important;
+  overflow: hidden;
+}
+
+.generic__fadeIn {
+  transition: opacity 0.25s ease-in-out 0.25s;
+  opacity: 1 !important;
+  height: unset !important;
+}
+
+.generic__linearLoaderWrapper {
+  text-align: center;
+}
+
+.generic__linearLoaderWrapper .generic__linearLoader {
+  height: 2px;
+  background: #eee;
+  margin-bottom: 5px;
+}
+
+.generic__linearLoaderWrapper .generic__linearLoader .generic__progress {
+  background: #6eb3e0;
+  height: 100%;
+  width: 0px;
+}
+
+.generic__iconS_app_24 {
+  background: url(/universalhp/img/sprite.png);
+  width: 12px;
+  height: 12px;
+  background-size: 167.5px 12px;
+  display: inline-block;
+  vertical-align: middle;
+  font-style: normal;
+  background-repeat: no-repeat;
+}
+
+.generic__iconS_app_banner {
+  background: url(/universalhp/img/banner.png);
+}
+
+.generic__iconS_app_qrCode {
+  background: url(/universalhp/img/qrCode.png);
+}
+
+.generic__iconS_app_appScreen {
+  background: url(/universalhp/img/App_screens.png);
+}
+
+.generic__iconS_app_Phone1 {
+  background: url(/universalhp/img/Phone1.png);
+}
+
+.generic__iconS_app_Phone2 {
+  background: url(/universalhp/img/Phone2.png);
+}
+
+.generic__iconS_app_24 {
+  background: url(/universalhp/img/sprite.png);
+  width: 12px;
+  height: 12px;
+  background-size: 167.5px 12px;
+  display: inline-block;
+  vertical-align: middle;
+  font-style: normal;
+  background-repeat: no-repeat;
+}
+
+.generic__iconS_app_banner {
+  background: url(/universalhp/img/banner.png);
+}
+
+.generic__iconS_app_qrCode {
+  background: url(/universalhp/img/qrCode.png);
+}
+
+.generic__iconS_app_appScreen {
+  background: url(/universalhp/img/App_screens.png);
+}
+
+.generic__iconS_app_Phone1 {
+  background: url(/universalhp/img/Phone1.png);
+}
+
+.generic__iconS_app_Phone2 {
+  background: url(/universalhp/img/Phone2.png);
+}
+
+@media (min-width: 761px) {
+  .generic__arrowBlueDown {
+    background-image: url(https://static.99acres.com/images/ui_sprite_home-v23.png);
+    background-position: 75px -120px;
+    width: 15px;
+    height: 7px;
+    display: inline-block;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  .generic__arrowWhiteDown {
+    background-image: url(https://static.99acres.com/images/ui_sprite_home-v23.png);
+    background-position: 23px -120px;
+    width: 15px;
+    height: 7px;
+    display: inline-block;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  .generic__checkedBox {
+    display: inline-block;
+    cursor: pointer;
+    background-position: -56px -56px;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    margin-left: 14px;
+    vertical-align: middle;
+    background-image: url('https://static.99acres.com/images/pd_widgets/PD_iconsprite-v3.7.png');
+    background-size: 318px 318px;
+    background-repeat: no-repeat;
+  }
+  [data-iswebp='true'] .generic__checkedBox {
+    background-image: url('https://static.99acres.com/unviersalapp/img/PD_iconsprite-v3.7.webp');
+  }
+  .generic__checkedBox:hover {
+    background-position: -134px -56px;
+  }
+  .generic__unCheckedBox {
+    display: inline-block;
+    cursor: pointer;
+    background-position: -30px -56px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 14px;
+    vertical-align: middle;
+    background-image: url('https://static.99acres.com/images/pd_widgets/PD_iconsprite-v3.7.png');
+    background-size: 318px 318px;
+    background-repeat: no-repeat;
+  }
+  [data-iswebp='true'] .generic__unCheckedBox {
+    background-image: url('https://static.99acres.com/universalapp/img/PD_iconsprite-v3.7.webp');
+  }
+  .generic__unCheckedBox:hover {
+    background-position: -108px -56px;
+  }
+  .generic__pseudoListingBanner {
+    background-image: url(/universalhp/img/Deals_Pseudo_Offers.png);
+  }
+  .generic__xidOfferBanner {
+    background-image: url(/universalhp/img/Deals_XID_offers.png);
+    background-repeat: no-repeat;
+    height: 155px;
+    width: 208px;
+  }
+  .generic__logoIcon {
+    background-image: url(/universalhp/img/logo_99acres.png);
+    background-position: 0 0;
+    width: 105px;
+    height: 36px;
+    vertical-align: middle;
+    display: block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .generic__dealDetailBanner {
+    background-image: url(/universalhp/img/Deal_detail_desktop_offers.png);
+    background-repeat: no-repeat;
+  }
+  .generic__giftIcon {
+    background-image: url(/universalhp/img/gift.png);
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 24px;
+  }
+}
+
+.generic__feedbackWidget {
+  background-position: 0 -240px;
+  width: 30px;
+  height: 126px;
+  position: fixed;
+  right: 0;
+  top: 390px;
+  z-index: 2;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+}
+
+.generic__bgBlur {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+
+
+.generic__listDisplay {
+  display: block;
+}
+.generic__investor_selection_sheet {
+  background: url(/universalhp/img/investor_selection_sheet.png);
+}
+
+.generic__investor_contact_sheet {
+  background: url(/universalhp/img/investor_contact_sheet.png);
+}
+.generic__listDisplayNone {
+  display: none !important;
+}
+
+
+
+/* Those that are causing errors ends */
+.generic__input_label_inactive {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 600;
+  color: #8993a4 !important;
+  display: block;
+  text-align: left;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.generic__imageStyling {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+}
+
+
+
+/* Don't add any background-url class here, go to publicImagePath.css file */
+
+/* For Area Converter Mobile input should not include border */
+body[data-label="AREA_CONVERTER"] input[type='text'] {
+  border: 0px;
+}
+

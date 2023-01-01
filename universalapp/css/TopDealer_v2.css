@@ -1,0 +1,634 @@
+.topDealerTab {background: #FFFFFF;box-shadow: 0 0 7px 2px rgba(210,224,233,.5);width: 181px;min-height: 198px;display: inline-block;margin-right: 10px;vertical-align: top;    border-radius: 3px !important; position: relative;}
+.profilePic img {
+    max-height: 100%;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    border-radius: 4px!important;
+    object-fit: cover;
+
+}
+
+
+.tupleWrap {
+    white-space: nowrap;
+    overflow: hidden;
+    height: 230px;
+    padding-top: 5px;
+}
+.topDealerTab:last-child{margin-right:0px}
+.topDealerTab>div {padding: 10px;}
+.profilePic {width: 80px;height: 80px;margin: auto;border-radius: 5px !important;position: relative; top: 5px; background-size: cover;}
+.tupleName {text-align: center; font-size: 11px; color: #333333; font-weight: 700; margin-top: 23px;overflow: hidden;
+    text-overflow: ellipsis;}
+.tupleProjectName {text-align: center;font-size: 12px;color: #333;letter-spacing: 0;overflow: hidden;text-overflow: ellipsis;height: 15px}
+.topDealerTab>div:last-child {border-top: 1px solid #F6F6F6;padding: 0px;}
+.topDealerTab>div:last-child a{text-align: left;font-size: 10px;color: #16A085;letter-spacing: 0;text-decoration:none;width: auto;display: inline-block;padding: 10px 13px;font-weight: 700;}
+a.topDealerRecomContact {
+    text-align: right !important;
+}
+.TopDealerTextWrap>div:last-child {font-size: 14px;color: #666666;}
+.TopDealerTextWrap>div:first-child {font-size: 18px;color: #2A2A2A;font-weight: 700;}
+.TopDealerTextWrap {margin-bottom: 30px;}
+.topDealerWrapper {background: #F5F6FA;padding: 20px; position: relative;}
+i.topDealerIconPic {width: 27px;height: 39px;position: absolute;bottom: -25px;left: 26px;background: url(https://www.99acres.com/pwa/public/css/pwa/public/images/topdealerlargexhdpi.png);background-size: 100%;background-repeat: no-repeat;}
+.mobileTopDealerTextWrap,.callIcon{display: none;}
+i.iconTopDealer {width: 25px;height: 26px;display: inline-block;vertical-align: middle;margin-right: 5px;background-image: url(https://www.99acres.com/pwa/public/css/pwa/public/images/PD_new_iconsprite.png);background-position: -220px -4px;background-size: 400px;}
+
+/* Crousal */
+.topDealerWrapper .RcomListWrapper {
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+    height: 224px;
+    padding: 0 5px;
+    -webkit-overflow-scrolling: touch;
+    }
+    
+    .topDealerWrapper .RecomScroller{
+    position: relative;
+    height: 280px;
+    overflow-y: hidden;
+    padding: 0;
+    }
+    
+    .topDealerWrapper .scrollBtnRecom{
+    position: absolute;
+     height: 58px;
+     width: 24px;
+     z-index: 19;
+     top: 80px;
+     text-align: center;
+     cursor: pointer;
+     line-height: 56px;
+     user-select: none;
+     background: rgba(255, 255, 255,0.7);
+     box-shadow: 0 0 5px 1px rgba(0,0,0,.1);
+     transition: background 150ms ease-in-out;
+     border: 1px rgba(0,0,0,.1) solid;
+    }
+    .topDealerWrapper .scrollBtnRecom:hover {
+    background: rgba(255, 255, 255,1);
+    }
+    .topDealerWrapper .scrollBtnRecomR{
+    right: 0;
+    }
+    
+    .topDealerWrapper .hidei{
+    display: none !important;
+    }
+    
+    .topDealerWrapper .scrollBtnRecomDisabled{
+    background-color:rgba(240,240,240,0.7);
+    color: #999;
+    }
+    .topDealerWrapper .scrollBtnRecom:before {
+    background-image: url('https://www.99acres.com/pwa/public/css/pwa/public/images/dif-sprite-new-v17.png');
+    content: '';
+    width: 20px;
+    height: 20px;
+    }
+    .recomAppWrapper .withoutLayer .RcomListWrapper{
+        padding-left: 165px;
+       }
+
+       .topDealerWrapper .RecomScroller{
+        position: relative;
+        height: 280px;
+        overflow-y: hidden;
+        padding: 0;
+        }
+
+/* End crousal */
+.tupleName, .tupleProjectName{
+        text-align: center;
+    font-size: 11px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+@media only screen and (max-width: 768px) {
+    .topDealerWrapper .RecomScroller{
+        height: 235px;
+      }
+      .topDealerWrapper .scrollBtnRecom{
+          display: none !important; 
+      }
+    .tupleWrap {white-space: nowrap;overflow: scroll;padding-bottom: 0px;    padding-left: 0.625rem;    height: 222px;
+        padding-top: 0px;    overflow-y: hidden;}
+    .topDealerWrapper{padding: 0px;}
+    .topDealerWrapper{background: #fff;padding-top: 10px}
+    .topDealerWrapper .scrollHide {height: 210px !important;overflow: hidden;}
+    .mobileTopDealerTextWrap{display: block;padding-left: .625rem;}
+    .topDealerTab{
+        background: #FFFFFF;
+        box-shadow: 0 0 7px 2px rgba(210,224,233,.5);
+        width: 181px;
+        min-height: 198px;
+        display: inline-block;
+        margin-right: 10px;
+        vertical-align: top;
+        margin-top: 4px;
+        border-radius: 5px;
+        margin-left: 6px;
+    }
+    .topDealerTab:first-child {
+        margin-left: 5px;
+    }
+    /*.callIcon {background: url(https://static.99acres.com/images/99mobile/icon-sprite-v17.png) no-repeat -125px -154px;width: 13px;display: inline-block;height: 13px;background-size: 167px 167px;}*/
+    .topDealerTab>div:last-child>a span {display: none;}
+    .positionIcon {vertical-align: initial;}
+    .TopDealerTextWrap{display: none}
+    .mobileTopDealerTextWrap {font-size: 12px;color: #666666;margin-bottom: 10px;font-weight: 600;}
+        .topDealerTab>div:last-child a {
+            text-align: left;
+            font-size: 10px;
+            color: #16a085;
+            letter-spacing: 0;
+            text-decoration: none;
+            width: 75%;
+            display: inline-block;
+            padding: 10px;
+            font-weight: 700;
+        }
+        a.topDealerRecomContact {
+            padding: 0px !important;
+            width: 45px !important;
+            text-align: right !important;
+            padding: 0px !important;
+            top: 6px;
+            position: relative;
+            left: -10px;
+        }
+
+        .callIcon {
+            background: url('https://www.99acres.com/pwa/public/css/pwa/public/images/PWA_common.png') no-repeat;
+            width: 24px;
+            display: inline-block;
+            height: 21px;
+            background-size: 361px 48px;
+            background-position: -143px 0px;
+        }
+
+    .topDealerTab:last-child{margin-right:10px}
+}
+
+.bgGrad {
+    background-image: linear-gradient(-180deg, #3498DB 0%, #169EA0 100%),url(https://www.99acres.com/pwa/public/css/pwa/public/asset_2xxxhdpi.png);
+    background-blend-mode: multiply;
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+    height: 77px;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.topDealTag {
+    background: #F29B12;
+    border-radius: 2px;
+    font-size: 9px;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    bottom: -5px;
+    width: 68px;
+    right: 0;
+    font-weight: 600;
+    left: 0;
+    margin: auto;
+}
+
+.activeSince {
+    font-size: 10px;
+    color: #666;
+    margin-top: 4px;
+    text-align: center;
+}
+
+.imgFrame {
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 6px!important;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 10px;
+}
+
+
+
+
+
+
+
+.topDealerToolTipNew * {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.topDealer:hover .topDealerToolTipNew {
+    display: block !important;
+}
+
+.address-max-height {
+    max-height: 60px;
+    overflow: hidden;
+}
+
+.topDealerToolTipNew {
+    background: #FFFFFF;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+    width: 450px;
+    height: 301px;
+    /* display: none !important; */
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    top: -35px;
+}
+
+.tdUserDetails {
+    height: 100%;
+    width: 180px;
+    background-blend-mode: multiply;
+    background-size: 100%;
+    float: left;
+    padding-top: 20px;
+    background-image: linear-gradient(-180deg, #3498DB 0%, #169EA0 100%), url(https://www.99acres.com/pwa/public/css/pwa/public/img/asset_2xxxhdpi.png);
+}
+
+.topDealerToolTipNew div {
+    margin-top: 0 !important;
+}
+
+.tdAvatar {
+    border: 2px solid #FFFFFF;
+    border-radius: 6px !important;
+    padding: 3px;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+.text-upper {
+    text-transform: uppercase
+}
+
+.text-capital {
+    text-transform: capitalize
+}
+
+.tdTopDealer {
+    background: #F29B12;
+    border-radius: 2px !important;
+    font-size: 10px !important;
+    color: #fff !important;
+    position: absolute;
+    width: 81px !important;
+    text-align: center;
+    font-weight: 600;
+    transform: translate(-50%);
+    left: 50%;
+    bottom: -10px;
+    padding: 2px 10px;
+}
+
+.topDealerToolTipNew div.tdName,
+.topDealerToolTipNew div.tdReraId,
+.topDealerToolTipNew div.tdSince {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 8px !important;
+}
+
+.topDealerToolTipNew div.tdReraId,
+.topDealerToolTipNew div.tdSince {
+    font-size: 10px;
+    margin-top: 2px !important;
+}
+
+.topDealerToolTipNew div.tdSince {
+    margin-bottom: 14px !important;
+}
+
+.tdPropImages {
+    width: 60px;
+    height: 38px;
+    margin: auto;
+    background: #fff;
+}
+
+.topDealerToolTipNew div.tdPropName {
+    font-size: 12px !important;
+    text-align: center;
+    width: auto !important;
+    margin-bottom: 17px !important;
+    margin-top: 10px !important;
+    color: #FFFFFF !important;
+    font-weight: 600 !important;
+}
+
+.avatar {
+    width: 110px;
+    height: 110px;
+    border-radius: 4px !important;
+    background: #fff;
+    overflow: hidden;
+    margin: auto !important;
+}
+
+.topDealerToolTipNew * {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.avatar img,
+.tdPropImages img {
+    width: 100%;
+}
+
+.tdfeedback span {
+    width: auto !important;
+    font-size: 12px !important;
+    font-weight: 100 !important;
+}
+
+i.thumbup {
+    width: 19px;
+    height: 19px;
+    margin-right: 10px;
+    vertical-align: top;
+    background: url('https://www.99acres.com/pwa/public/images/thumbsup.png');
+    background-size: 100%
+}
+
+.tdfeedback>span:last-child {
+    text-overflow: ellipsis;
+    vertical-align: bottom !important;
+    max-width: 220px;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+}
+
+.tdAddress b {
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+    display: block;
+}
+
+.topDealerToolTipNew div.tdAddress {
+    margin-top: 18px !important;
+    display: block;
+}
+
+.topDealerToolTipNew div.tdAddress>span {
+    font-size: 12px !important;
+    font-weight: 100 !important;
+    width: auto !important;
+    margin: 2px;
+    line-height: 18px !important;
+    white-space: normal !important;
+}
+
+.tdPropTab>div {
+    background: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.10);
+    border-radius: 2px !important;
+    width: auto !important;
+    height: 52px;
+    float: left;
+    padding: 10px;
+}
+
+.tdPropTab>div>span {
+    display: block;
+}
+
+.tdPropTab>div>span {
+    display: block;
+}
+
+.tdPropTab>div>span:first-child {
+    font-size: 18px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+.tdPropTab>div>span:last-child {
+    width: auto !important;
+    font-size: 12px !important;
+    font-weight: 100 !important;
+    margin-top: 5px;
+}
+
+.topDealerToolTipNew div.tdPropTab {
+    margin-top: 10px !important;
+    display: block;
+}
+
+.topDealerToolTipNew div.tdVideo {
+    background: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.10);
+    border-radius: 2px !important;
+    margin-top: 14px !important
+}
+
+.tdClear {
+    clear: both
+}
+
+.tdVideoThumbUp {
+    width: 67px;
+    float: left;
+    height: 52px;
+    position: relative;
+}
+
+.tdVideoThumbUp img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.tdVideoTitle {
+    cursor: pointer;
+    width: auto !important;
+    padding: 14.5px;
+}
+
+.tdVideoTitle>span {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    color: #333;
+}
+
+.tdVideoTitle>span:last-child {
+    font-size: 10px !important;
+    color: #666 !important;
+    letter-spacing: 1px;
+}
+
+.topDealerToolTipNew div.tdContactButton {
+    margin-top: 10px !important;
+    text-align: center;
+    width: auto !important;
+    background: #3398DC;
+    border-radius: 2px !important;
+    color: #fff !important;
+    text-transform: capitalize;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span.tdplayIcon {
+    background: url('https://www.99acres.com/pwa/public/images/play.png');
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 22px !important;
+    height: 22px !important;
+    background-size: 100%;
+}
+
+/* .topDealerToolTipNew:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 12px solid #3498DB;
+    position: absolute;
+    top: -12px;
+    left: 65px;
+} */
+.topArrow:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 12px solid #3498DB;
+    position: absolute;
+    top: -12px;
+    left: 65px;
+}
+.positonTupple {
+    top: 60px;
+}
+
+.topDealerToolTipNew div.tdEllipsis {
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+    overflow: hidden !important;
+    width: 90% !important;
+    margin: auto;
+}
+
+.tdOallEllipsis {
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+    overflow: hidden !important;
+}
+
+.topDealerToolTipNew div.tdName {
+    margin-top: 11px !important;
+}
+
+.tdPropTab>div:first-child {
+    margin-right: 10px;
+}
+
+.tdPropTab>div:first-child>span:last-child {
+    max-width: 95px;
+}
+
+.tdPropTab>div:last-child>span:last-child {
+    max-width: 105px;
+}
+
+.top-dealer-srp div:last-child>div span:last-child {
+    font-size: 9px;
+    color: #666;
+    letter-spacing: 0;
+    margin-top: 4px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 340px;
+    overflow: hidden;
+}
+
+/* .top-dealer-srp>div div:last-child {
+    font-size: 9px;
+    color: #666;
+    letter-spacing: 0;
+    margin-top: 4px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 340px;
+    overflow: hidden;
+} */
+.tdUserContent {
+    width: auto !important;
+    padding: 15px 10px;
+    font-size: 12px !important;
+    color: #666;
+    letter-spacing: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.leftArrow:before {
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 234px;
+    left: -10px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #3498DB;
+}
+
+.rightArrow:before {
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 234px;
+    left: 450px !important;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #3498DB;
+}
+
+#pkb-wrapper {opacity:0; z-index:8; right:-300px; height:250px; width:300px; top:345px; position:fixed; overflow:hidden; transition:right 0.5s ease, opacity 0.5s ease;}
+#pkb-wrapper > div {position:relative; width:300px; height:250px;}
+#pkb-wrapper #peek-in-close {cursor:pointer; position:absolute; display:none; width:20px; height:20px; background-position:-173px -192px; background-image:url('https://static.99acres.com/universalapp/img/difSpriteV17.png'); right:0;}
+#pkb-wrapper iframe {border:0;}
+
+
+.highcharts-tooltip > span {
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px 0 rgba(0, 106, 194, 0.2);
+    padding: 4px 2px;
+  }
